@@ -1,0 +1,40 @@
+{
+  "livros": [
+    {
+      "titulo": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "autor": "Robert C. Martin",
+      "area": "Programação",
+      "imagem": "URL_da_imagem1",
+      "editora": "Prentice Hall",
+      "ano_fabricacao": 2008,
+      "isbn": "978-0132350884"
+    },
+    {
+      "titulo": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "autor": "Marijn Haverbeke",
+      "area": "JavaScript",
+      "imagem": "URL_da_imagem2",
+      "editora": "No Starch Press",
+      "ano_fabricacao": 2011,
+      "isbn": "978-1593275846"
+    },
+    {
+      "titulo": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
+      "autor": "Eric Matthes",
+      "area": "Python",
+      "imagem": "URL_da_imagem3",
+      "editora": "No Starch Press",
+      "ano_fabricacao": 2015,
+      "isbn": "978-1593276034"
+    },
+    {
+      "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "autor": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "area": "Design de Software",
+      "imagem": "URL_da_imagem4",
+      "editora": "Addison-Wesley",
+      "ano_fabricacao": 1994,
+      "isbn": "978-0201633610"
+    }
+  ]
+}
