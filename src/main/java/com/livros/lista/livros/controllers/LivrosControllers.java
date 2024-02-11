@@ -3,6 +3,7 @@ package com.livros.lista.livros.controllers;
 
 import com.livros.lista.livros.domain.Livros;
 import com.livros.lista.livros.service.LivrosServices;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,10 +21,9 @@ public class LivrosControllers {
         this.livrosServices = services;
     }
     @GetMapping("")
-    public String getLivros(){
+    public ResponseEntity<List<Livros>> getLivros(){
         List<Livros> livros = this.livrosServices.getLivrosFromLibriary();
-        return "oiii";
-
+        return ResponseEntity.ok().body(livros);
     }
 
 
