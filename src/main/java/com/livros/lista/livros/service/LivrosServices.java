@@ -22,8 +22,6 @@ public class LivrosServices {
     public List<Livros> getLivrosFromLibriary(){
         return this.livrosCliente.getLivros();
 
-
-
     }
 
 
